@@ -24,14 +24,14 @@ const cetegorylist = [
   furniture
 ];
 const cetegoryimg = [
+  imgS1,
   imgFc1,
   imgFc2,
   imgFc3,
   imgFc4,
   imgFc5,
-  imgFc6,
   imgFc7,
-  imgFc8,
+  imgFc6,
   imgFc9,
   imgFc10,
 ];
@@ -46,3 +46,6 @@ const itemDetailButtonsList = [
 
 const profileButtonList = [orders, wishlist, messages];
 const profileButtonIcon = [icOrder, icOrder, icMessages];
+
+const paymentMethodImg = [imgPaypal, imgStripe, imgCod];
+const paymentMethods = [paypal, stripe, cod];

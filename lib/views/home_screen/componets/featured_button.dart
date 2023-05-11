@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:shoping/consts/consts.dart';
+import 'package:shoping/views/category_screen/categoris_detail.dart';
 
 Widget featuredButton({String? title, icon}) {
   return Row(
@@ -19,5 +22,8 @@ Widget featuredButton({String? title, icon}) {
       .roundedSM
       .padding(EdgeInsets.all(4))
       .outerShadowSm
-      .make();
+      .make()
+      .onTap(() {
+    Get.to(() => categoriesDetails(title: title));
+  });
 }

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "168734480351",
+    "project_id": "emart-a19b3",
+    "storage_bucket": "emart-a19b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168734480351:android:cb039a6ff6ff46ef49966a",
+        "android_client_info": {
+          "package_name": "com.example.shoping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168734480351-e0uo1evf8ijjcsfu9q7e6dqhc474h7a2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoping",
+            "certificate_hash": "a32c8edd69671cc350fbc3c7b3d71c4c6169819c"
+          }
+        },
+        {
+          "client_id": "168734480351-1he8rl5i97n5becnbep3u04eaku73qe1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGLyq9gK-wrbUQMq_w1vaTJ0_ObYk_4Zs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168734480351-1he8rl5i97n5becnbep3u04eaku73qe1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "168734480351-0r7ru3f9heve75veme9lfhjg5cjj49vr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shoping"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:shoping/consts/consts.dart';
 import 'package:shoping/consts/list.dart';
+import 'package:shoping/controllers/product_controller.dart';
 import 'package:shoping/views/category_screen/categoris_detail.dart';
 import 'package:shoping/widgets_common/bg_widget.dart';
 
@@ -11,6 +13,7 @@ class CategotyScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var controller = Get.put(Productcontroller());
     return bgWidget(
         child: Scaffold(
       appBar: AppBar(
@@ -50,6 +53,7 @@ class CategotyScreen extends StatelessWidget {
                   .clip(Clip.antiAlias)
                   .make()
                   .onTap(() {
+                controller.getSubcategories(cetegorylist[index]);
                 Get.to(() => categoriesDetails(title: cetegorylist[index]));
               });
             }),
